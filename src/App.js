@@ -1,23 +1,24 @@
 import logo from './logo.svg';
+import React, {useEffect} from 'react'
 import './App.css';
 
+// const CLIENT_ID = "a42ae134b720118ef28ff7885f2d8001dd7e7012"
+
+// const API= `https://dribbble.com/oauth/token?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&code=${COPIED_CODE}`
+
 function App() {
+
+  // useEffect(()=>{
+  //   fetch(API)
+  //   .then((response)=> console.log(response))
+
+  // })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      hello
+
+
     </div>
   );
 }
